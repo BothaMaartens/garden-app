@@ -6,8 +6,8 @@ The seasons are defined as either Summer or Winter.
 '''
 
 # User input. Season and Plant definition.
-season = "summer"
-plant_type = "flower"
+season = input("State the season, summer/winter: ").lower()
+plant_type = input("State the plant, flower/vegetable: ").lower()
 
 # Variable to hold gardening advice
 advice = ""
