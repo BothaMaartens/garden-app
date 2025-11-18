@@ -1,6 +1,13 @@
-# Hardcoded values for the season and plant type
-season = "summer"  # TODO: Replace with input() to allow user interaction.
-plant_type = "flower"  # TODO: Replace with input() to allow user interaction.
+# Garden advice Application
+'''
+This app will give advice on growing flowers or vegetables based on the
+current season.
+The seasons are defined as either Summer or Winter.
+'''
+
+# User input. Season and Plant definition.
+season = "summer"
+plant_type = "flower"
 
 # Variable to hold gardening advice
 advice = ""
@@ -23,9 +30,3 @@ else:
 
 # Print the generated advice
 print(advice)
-
-# TODO: Examples of possible features to add:
-# - Add detailed comments explaining each block of code.
-# - Refactor the code into functions for better readability and modularity.
-# - Store advice in a dictionary for multiple plants and seasons.
-# - Recommend plants based on the entered season.
